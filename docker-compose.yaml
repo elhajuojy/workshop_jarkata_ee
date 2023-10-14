@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  db_todo_app:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: ${PGUSER}
+      POSTGRES_PASSWORD: ${ROOT_PASSWORD}
+      POSTGRES_DB: ${DATABASE}
+      PGUSER: ${PGUSER}
+      PGDATA: /data/postgres
+    volumes:
+      - db:/data/postgres
+    ports:
+    #exported port:internal port
+      - "5332:5432"
+    networks:
+      - db
+    restart: unless-stopped
+
+networks:
+  db:
+    driver: bridge
+
+volumes:
+  db:
