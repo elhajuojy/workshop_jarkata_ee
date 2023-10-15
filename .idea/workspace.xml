@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="todo_app_workshop:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82faa644-9328-4222-aa74-744e27d23b5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/connection/Jpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/entity/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/enums/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/enums/Progress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/presistence/CusomPresistenceUnitInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="82faa644-9328-4222-aa74-744e27d23b5e" name="Changes" comment="WORKSHOP INITIAL COMMIT FOR THE WORKSHOP JAVA EE">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/TodoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/TodoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/api/TodoServletApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/todo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/connection/Jpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/connection/Jpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +45,13 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -84,8 +86,12 @@
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.yc.todo_app_workshop.web.api" />
+      <recent name="ma.yc.todo_app_workshop.web" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceImpl">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.13">
     <configuration name="UserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ma.yc.todo_app_workshop.service.impl.UserServiceImpl" />
       <module name="todo_app_workshop" />
@@ -107,12 +113,47 @@
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b7024a4f-6016-43bd-893c-93c01f81398c" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54664" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -181,20 +222,64 @@
       <option name="presentableId" value="Default" />
       <updated>1697280276811</updated>
       <workItem from="1697280277884" duration="4398000" />
-      <workItem from="1697284897293" duration="11920000" />
+      <workItem from="1697284897293" duration="25327000" />
     </task>
+    <task id="LOCAL-00001" summary="WORKSHOP INITIAL COMMIT FOR THE WORKSHOP JAVA EE">
+      <option name="closed" value="true" />
+      <created>1697311590769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697311590769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WORKSHOP INITIAL COMMIT FOR THE WORKSHOP JAVA EE" />
+    <option name="LAST_COMMIT_MESSAGE" value="WORKSHOP INITIAL COMMIT FOR THE WORKSHOP JAVA EE" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/TodoServlet.java</url>
+          <line>41</line>
+          <properties class="ma.yc.todo_app_workshop.web.TodoServlet" method="doPost">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/TodoServiceImpl.java</url>
+          <line>20</line>
+          <properties class="ma.yc.todo_app_workshop.service.impl.TodoServiceImpl" method="addNewTodoToUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/UserServlet.java</url>
+          <line>37</line>
+          <properties class="ma.yc.todo_app_workshop.web.UserServlet" method="doPost">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/UserServiceImpl.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="5" />
+          <line>121</line>
+          <properties class="ma.yc.todo_app_workshop.service.impl.UserServiceImpl" method="getUserByUsername">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

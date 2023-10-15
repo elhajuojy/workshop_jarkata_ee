@@ -22,7 +22,7 @@ public class Jpa {
         String puName = "todo_app-presistence-unit";
         HashMap<String,String> props  = new HashMap<>();
         props.put("hibernate.show_sql","true");
-        props.put("hibernate.hbm2ddl.auto","create");//create- update - none
+        props.put("hibernate.hbm2ddl.auto","none");//create- update - none
         //in the production you mustn't use the create or update option
         entityManagerFactory = new HibernatePersistenceProvider().
                 createContainerEntityManagerFactory(new CusomPresistenceUnitInfo(puName), props);

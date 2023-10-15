@@ -22,6 +22,6 @@ public class User {
     private String username;
     private String password ;
     private String email ;
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user" ,fetch = FetchType.EAGER)
     private Collection<Todo> todos = new ArrayList<>();
 }
