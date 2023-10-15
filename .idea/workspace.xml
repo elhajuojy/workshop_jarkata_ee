@@ -9,21 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82faa644-9328-4222-aa74-744e27d23b5e" name="Changes" comment="WORKSHOP INITIAL COMMIT FOR THE WORKSHOP JAVA EE">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/TodoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/TodoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/TodoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/web/api/TodoServletApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/todo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/user.jsp" afterDir="false" />
+    <list default="true" id="82faa644-9328-4222-aa74-744e27d23b5e" name="Changes" comment="LOGIN TO TODOS ADD TODOS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/connection/Jpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/connection/Jpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/yc/todo_app_workshop/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +38,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -222,7 +212,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697280276811</updated>
       <workItem from="1697280277884" duration="4398000" />
-      <workItem from="1697284897293" duration="25327000" />
+      <workItem from="1697284897293" duration="26888000" />
     </task>
     <task id="LOCAL-00001" summary="WORKSHOP INITIAL COMMIT FOR THE WORKSHOP JAVA EE">
       <option name="closed" value="true" />
@@ -232,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697311590769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LOGIN TO TODOS ADD TODOS">
+      <option name="closed" value="true" />
+      <created>1697370271599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697370271600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +238,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WORKSHOP INITIAL COMMIT FOR THE WORKSHOP JAVA EE" />
-    <option name="LAST_COMMIT_MESSAGE" value="WORKSHOP INITIAL COMMIT FOR THE WORKSHOP JAVA EE" />
+    <MESSAGE value="LOGIN TO TODOS ADD TODOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOGIN TO TODOS ADD TODOS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
