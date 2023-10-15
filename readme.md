@@ -3,8 +3,9 @@
 ![cover](./assets/WORK%20SHOP%20Todo%20Application.png)
 
 ## Presentation
-![notion](https://elhjuojy.notion.site/Workshop-JAKARTA-EE-HIBERNATE-f5174f979e00476f9b863a9e2e64f61a?pvs=4)
+[notion](https://elhjuojy.notion.site/Workshop-JAKARTA-EE-HIBERNATE-f5174f979e00476f9b863a9e2e64f61a?pvs=4)
 
+[LinkedIn](https://www.linkedin.com/in/elmahdi-elhjoujy/)
 ## overview
 In this comprehensive workshop, we'll delve into the basics of 
 network programming, Jakarta EE, PostgreSQL integration with Docker, JPA and Hibernate,
@@ -13,13 +14,13 @@ and the deployment of Jakarta EE applications using Docker,
 equipping you with a holistic understanding of these essential technologies. 
 
 ## topics
--[x] Learn Network Programming, TCP/IP models, and server-socket applications.
--[x] Explore Jakarta EE, its architecture, and project setup with Maven and IntelliJ IDEA.
--[x] Get hands-on experience with PostgreSQL and Docker.
--[x] Understand JPA and Hibernate, their differences, and entity relationships.
--[x] JSON handling.
--[x] Discover Servlets, JSP, JSTL, and MVC for building a Todo Application.
--[x] Learn to deploy Jakarta EE applications with Docker.
+- [x] Learn Network Programming, TCP/IP models, and server-socket applications.
+- [x] Explore Jakarta EE, its architecture, and project setup with Maven and IntelliJ IDEA.
+- [x] Get hands-on experience with PostgreSQL and Docker.
+- [x] Understand JPA and Hibernate, their differences, and entity relationships.
+- [x] JSON handling.
+- [x] Discover Servlets, JSP, JSTL, and MVC for building a Todo Application.
+- [x] Learn to deploy Jakarta EE applications with Docker.
 
 ## prerequisites
 To get the most out of this workshop, you should have a basic understanding of Java programming and Maven.
@@ -32,4 +33,3 @@ you must have installed the following:
 
 ## contact
 If you have any questions, feel free to reach out to me at `
-[LinkedIn](https://www.linkedin.com/in/elmahdi-elhjoujy/)`.
